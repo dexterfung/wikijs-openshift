@@ -1,5 +1,7 @@
 # wikijs-openshift
 
+After following this guide, should be able to deploy a wiki.js site on openshift. It should be routed to a openshift-generated host.
+
 ## Requirements
 Openshift CLI
 Docker
@@ -54,5 +56,7 @@ In terminal, run again
  
  Wait for it to deploy and should be ready after deployment
 Use the admin email address in dockerfile as user and admin123 as password to login.
+
+
 
 
