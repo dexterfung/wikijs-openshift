@@ -2,7 +2,7 @@
 
 ## Backup
 Open the terminal and connect to the MongoDB database using admin user with the command:
-mongo -u admin -p [PASSWORD] admin
+>mongo -u admin -p [PASSWORD] admin
 The password can be found in Secret.
 
 Use the database wiki with the command:
@@ -19,7 +19,7 @@ After you have reinstalled wiki.js, the database wiki should be overwritten (or 
 Now we start the process of recovering user documents.
 
 Connect to the MongoDB database using admin user again and use the database wiki.
-mongo -u admin -p [PASSWORD] admin
+> mongo -u admin -p [PASSWORD] admin
 > use wiki
 
 Use the following command to insert all the users you want to insert:
