@@ -24,7 +24,7 @@ Things need to edit includes:
 * host (only if the route is known, or else just leave it and follow the steps)
 * db (use the cluser IP)
 * git connection (I think can be private repo, not tested)
-** If auth type is ssh, need to add the privatekey file using dockerfile
+** ssh does not work atm, just use basic ssh with username and password
 
 ## Step 4: Create Docker Image
 Open a docker hub account
