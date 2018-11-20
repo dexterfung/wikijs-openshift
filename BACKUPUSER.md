@@ -21,6 +21,7 @@ Now we start the process of recovering user documents.
 
 Connect to the MongoDB database using admin user again and use the database wiki.
 > mongo -u admin -p [PASSWORD] admin
+
 > use wiki
 
 Use the following command to insert all the users you want to insert:
