@@ -142,9 +142,6 @@ git:
     username: username
     password: password
 
-    # Only for SSH authentication:
-    privateKey: /etc/wiki/keys/git.pem
-
     sslVerify: true
 
   # Default email to use as commit author
