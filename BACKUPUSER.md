@@ -3,6 +3,7 @@
 ## Backup
 Open the terminal and connect to the MongoDB database using admin user with the command:
 >mongo -u admin -p [PASSWORD] admin
+
 The password can be found in Secret.
 
 Use the database wiki with the command:
