@@ -1,6 +1,6 @@
-# Backing up and recovering user data from MongoDB in a simple way
+# Backing up and recovering user data in a simple way
 
-## =Backup
+## Backup
 Open the terminal and connect to the MongoDB database using admin user with the command:
 mongo -u admin -p [PASSWORD] admin
 The password can be found in Secret.
