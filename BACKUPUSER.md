@@ -31,7 +31,7 @@ It is recommanded that you first write this command somewhere and add the users,
 You can also using the following command to insert user one by one:
 > try { db.user.insertOne( {USER 1} ); } catch (e) { print(e); }
 
-'''Example''':
+### Example
 Suppose we have two users to insert:
 >{ "_id" : ObjectId("123"), "updatedAt" : ISODate("2018-11-19T17:26:43.406Z"), "createdAt" : ISODate("2018-11-19T17:26:43.406Z"), "email" : "abc@e.com", "provider" : "local", "password" : "$1412asd", "name" : "abc", "rights" : [ { "role" : "read", "path" : "/", "exact" : false, "deny" : false, "_id" : ObjectId("a") } ], "__v" : 0 }
 
